@@ -1,0 +1,1 @@
+		</div>		<div id="footer">			<hr>Copyright <?php echo date("Y", time()); ?>, 			<a class="nodecor" href="admin/menu.php">MEDC</a>		</div>	</div>  </body></html><?php if(isset($database)) { $database->close_connection(); } ?>
